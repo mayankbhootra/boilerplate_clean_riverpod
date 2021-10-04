@@ -1,5 +1,6 @@
-import 'package:boilerplate_login/features/presentation/widgets/theme/style.dart';
 import 'package:flutter/material.dart';
+
+import 'package:boilerplate_login/features/presentation/widgets/theme/style.dart';
 
 class TextFieldPasswordContainerWidget extends StatefulWidget {
   final TextEditingController? controller;

@@ -10,7 +10,7 @@ class HeaderWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        SizedBox(
+        const SizedBox(
           height: 20,
         ),
         Container(
@@ -21,13 +21,13 @@ class HeaderWidget extends StatelessWidget {
                 fontSize: 35, color: greenColor, fontWeight: FontWeight.w700),
           ),
         ),
-        SizedBox(
+        const SizedBox(
           height: 10,
         ),
-        Divider(
+        const Divider(
           thickness: 1,
         ),
-        SizedBox(
+        const SizedBox(
           height: 10,
         ),
       ],

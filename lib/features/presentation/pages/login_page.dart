@@ -13,8 +13,8 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-  TextEditingController _emailController = TextEditingController();
-  TextEditingController _passwordController = TextEditingController();
+  final TextEditingController _emailController = TextEditingController();
+  final TextEditingController _passwordController = TextEditingController();
 
   @override
   void dispose() {
@@ -124,7 +124,7 @@ Widget _rowGoogleWidget() {
             borderRadius: BorderRadius.circular(50),
             color: Colors.red,
           ),
-          child: Icon(
+          child: const Icon(
             Icons.g_mobiledata,
             color: Colors.white,
           ),
